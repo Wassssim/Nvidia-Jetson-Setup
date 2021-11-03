@@ -8,4 +8,6 @@ Run
 
 Run `sudo ./test_deepstream.sh` To check if the deepstream installation is working correctly
 
+This was tested on the Nvidia Jetson Nano in headless mode, with a fresh installation of the Jetpack 4.6
+
 This repository is still under WIP (Work in Progress)
