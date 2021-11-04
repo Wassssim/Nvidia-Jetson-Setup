@@ -43,3 +43,10 @@ printf '%.0s-' {1..25};printf ' Installing Deepstream '; printf '%.0s-' {1..25};
 wget -nc https://developer.download.nvidia.com/assets/Deepstream/DeepStream_6.0/deepstream-6.0_6.0.0-1_arm64.deb?ob1SL3LsOlN2gUEqCtjZd008fnzj9lk-Lpuo7O_Z2DnyTIWXhgY0TKyaCtA1nzhREdoPIKg7yspAVtsyKpRLYjIau4ToVc4BPHJZm1q0BFOgulEgg3s-5N0eZFAaJ7uyeTct5LRs8p8FVyyCtiV3_-4o65tZ8V1EbXYpHpoIIz8 -O deepstream-6.0_6.0.0-1_arm64.deb
 
 apt-get install ./deepstream-6.0_6.0.0-1_arm64.deb
+
+#Install python dependencies
+apt-get install -y gstreamer1.0-rtsp
+apt-get install libgirepository1.0-dev
+apt-get install gobject-introspection gir1.2-gst-rtsp-server-1.0
+apt update
+apt install python3-pip
