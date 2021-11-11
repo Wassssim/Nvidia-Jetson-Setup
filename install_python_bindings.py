@@ -1,9 +1,4 @@
 #!/bin/bash
-if [ ! -d "/opt/nvidia/deepstream/deepstream/sources/apps/sample_apps/deepstream-test1-rtsp_out/" ] 
-then
-	cp -rv ./deepstream-test1-rtsp_out /opt/nvidia/deepstream/deepstream/sources/apps/sample_apps/ 
-fi
-
 
 #Base dependencies
 apt install -y git python-dev python3 python3-pip python3.6-dev python3.8-dev cmake g++ build-essential \

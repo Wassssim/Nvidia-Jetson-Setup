@@ -259,7 +259,7 @@ main (int argc, char *argv[])
 #endif
   sink = gst_element_factory_make ("udpsink", "udpsink");
 
-  g_object_set (G_OBJECT (sink), "host", "224.224.255.255", "port",
+  g_object_set (G_OBJECT (sink), "host", "127.0.0.1", "port",
       5400, "async", FALSE, "sync", 0, NULL);
 
   if (!source || !h264parser || !decoder || !pgie
