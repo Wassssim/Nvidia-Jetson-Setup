@@ -52,3 +52,6 @@ apt-get install -y libgirepository1.0-dev
 apt-get install -y gobject-introspection gir1.2-gst-rtsp-server-1.0
 apt update
 apt install -y python3-pip
+
+# For timestamping
+apt-get install moreutils
