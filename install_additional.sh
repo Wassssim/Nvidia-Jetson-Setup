@@ -16,3 +16,6 @@ sudo apt-get install -y librdkafka1=0.11.3-1build1
 sudo apt install -y lsof
 sudo apt install -y autossh
 sudo apt install -y libjson-glib-dev
+
+#for ts command
+apt-get install moreutils
