@@ -19,3 +19,4 @@ sudo apt install -y libjson-glib-dev
 
 #for ts command
 apt-get install moreutils
+pip3 install jetson-stats
